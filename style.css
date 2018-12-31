@@ -1,0 +1,153 @@
+.maincolor {
+	color= rgb(85,188,142);
+}
+body {
+	background-image: url("../bg/tankswar2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	-ms-text-shadow:0;
+	-moz-text-shadow:0;
+	text-shadow: 0 1px 2px rgba(00)
+}
+h1 {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(85,188,142);
+	align-self: center;
+	margin-top: 300px;
+  	margin-bottom: 1px;
+  	margin-right: 300px;
+  	margin-left: 415px;
+  	font-family: raleway;
+
+}
+form{
+		margin-top: 0px;
+  		margin-bottom: 50px;
+  		margin-right: 250px;
+  		margin-left: 600px;
+  		font-family: raleway;
+  		font-size: 28px;
+  		font-style: bold;
+  		font-style : italic;
+
+  		color:rgb(85,168,100);
+
+}
+.mysubmit{
+		background: rgb(255,0,0);
+		argin-top: 20px;
+  		margin-bottom: 50px;
+  		margin-right: 250px;
+  		margin-left: 415px;
+  		border-radius: 3px; 
+
+}
+input[type~="text"]{
+	color= rgb(255,00,00);
+
+}
+.btn{
+	background: Green;
+	border-radius: 3px;
+
+}
+
+}
+.cbtn {
+	    margin-top: 0%;
+    margin-left:40%;
+    background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  font-size:16px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+  font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+  height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+  display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+  padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
