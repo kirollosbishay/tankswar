@@ -45,7 +45,17 @@
 			</div> <!-- form -->
 			
 			<footer>
-				<a href="#">Credits</a>
+				<a href="#" onclick="document.getElementById('modal-wrapper').style.display='block'">Credits</a>
+					<div id="modal-wrapper" class="modal">
+  						<form class="modal-content animate" action="/action_page.php">
+    						<div class="imgcontainer">
+      							<span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close Criedets">&times;</span>
+  							    <img src="1.png" alt="Criedets" class="Cridets">
+      							<p>-Kirollos <br>-Karim <br>-Aya<br> -Mariam </p>
+ 						   </div>
+						</form>
+					</div>
+				<a href="#">How to Play</a>
 			</footer>
 			
 		</div>
