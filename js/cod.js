@@ -1,4 +1,5 @@
 
+// Proceed steps
 var container = document.getElementById('container'),
 		
 		firstStep = document.getElementById('first-step'),
@@ -20,6 +21,19 @@ var container = document.getElementById('container'),
 			div.innerHTML = secondStepContent;
 			container.appendChild(div);
 		});
+
+// Pause and Play sound
+var soundSwitch = document.getElementById('sound'),
+		bgMusic = document.getElementById('bg-music');
+
+		soundSwitch.addEventListener('click', function() {
+			if (soundSwitch.checked) {
+				bgMusic.pause();
+			} else {
+				bgMusic.play();
+			}
+		});
+
 
 
 

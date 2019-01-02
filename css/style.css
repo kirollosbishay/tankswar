@@ -73,16 +73,53 @@ body {
   background: #558c8d;
 }
 
-footer {
-  padding: 50px 0;
+.credits {
   text-align: center;
-  color: white;
-}
-footer a {
-  color: white;
-  font-weight: 100;
+  padding: 50px 0;
 }
 
+.credits .credits-popup-open {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.credits .credits-popup {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.credits #credits-popup-open:checked + .credits-popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+.credits .credits-popup-content {
+  background: white;
+  padding: 30px;
+  width: 380px;
+  text-align: left;
+  margin: 20% auto;
+  min-height: 220px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.credits .credits-popup-content .credits-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  font-size: 26px;
+  cursor: pointer;
+}
 
 /* Sound icon */
 input[type="checkbox"] {
