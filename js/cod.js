@@ -32,9 +32,9 @@ window.onclick = function(event) {
 //takes the username and check that it has atleast 3 chachters and never starts with a digit 
 var username = document.getElementById("player-name").name;
 username.addEventListener('click',submit())
-var fn submit(){
+var fn =submit(){
 		var mainval = username;
-	}
+	
 console.log(username);
 var check = function (username){
 	if(username.length<3){
@@ -44,8 +44,31 @@ var check = function (username){
 		alert("Please enter a valid war name");
 	}
 }
+}
+// function for the background sound 00
+var toggle=document.getElementById("sound");
+var audio =document.getElementById("audio");
+var audio = document.getElementsByTagName("audio");
+toggle.addEventListener("click", play())
+var play= function (){	
+if (toggle.checked)
+{
+	audio.play();
+}else 
+{
+	audio.pause();
+}
+}
 
 
+// var x = document.getElementById("sound"); 
+// console.log(x);
+// function playAudio() { 
+//   x.play(); 
+// } 
+// function pauseAudio() { 
+//   x.paused(); 
+// } 
 
 
 // var username = document.getElementById("warname").name;
