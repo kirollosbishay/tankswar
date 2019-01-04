@@ -36,8 +36,6 @@ var soundSwitch = document.getElementById('sound'),
 
 
 
-
-
 // var username = document.getElementById("warname").name;
 // console.log(username);
 // var check = function (username){
